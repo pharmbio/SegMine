@@ -14,14 +14,15 @@ Regardless of which method, the result is  tabular data that can be further anal
 With this in mind, we will ask you to provide a quick exploratory analysis of a reduced dataset containing cell painting images.The images in the dataset have untreated wells (DMSO, a negative control), and wells treated with reference substances (Positive controls) - see the metadata in 'data/plate_metadata.csv'. The metadata is stored in a Dataframe, each row corresponding to a single well-site-plane combination, and what treatment (if any!) that well has. The data is located in 'data/images/'
 
 ##### You will now implement in python a Pipeline to:
-Segment the cells into single-cell masks.
-Harvest the cells
-Calculate the location of each cell
-Mine profiles for each cell
-Aggregate the data as either the Mean or Median of each unique well-site combo
-Cluster the data using either UMAP or TSNE
+- Segment the cells into single-cell masks
+- Extract morphological information of the cells
+- Calculate the location of each cell
+- Mine profiles for each cell
+- Aggregate the data as either the Mean or Median of each unique well-site combo
+- Cluster the data using either UMAP or TSNE
 
 Additionally, we want you to create a public git-repository with your solutions and output plots, where you provide your pipeline example code as one of either:
-A set of *.py scripts with a config-file
-A set of jupyter-notebooks
-And your solution needs to be executable in a *nix environment (primarily Linux). Hint - WSL provides compatibility in Windows, and MacOS is very similar to Linux when it comes to Python and File-structures.
+- A set of *.py scripts with a config-file
+- A set of jupyter-notebooks
+Finally, our solution needs to be executable in a *nix environment (primarily Linux).
+Hint - WSL provides compatibility in Windows, and MacOS is very similar to Linux when it comes to Python and File-structures.

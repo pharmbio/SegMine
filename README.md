@@ -15,7 +15,7 @@ With this in mind, we will ask you to provide a quick exploratory analysis of a 
 
 ##### You will now implement in python a Pipeline to:
 - Segment the cells into single-cell masks
-- Extract morphological information of the cells
+- Harvest the cells - extract morphological information
 - Calculate the location of each cell
 - Mine profiles for each cell
 - Aggregate the data as either the Mean or Median of each unique well-site combo

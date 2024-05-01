@@ -1,5 +1,5 @@
 # SegMine
-Playground for Segmentation and Data-mining. This repository contains the necessary metadata and images to perform a simple image-segmentation of CellPainting images of U2OS cells. It also contains an simple assignment for making a pipeline
+Playground for Segmentation and Data-mining. This repository contains the necessary metadata and images to perform a simple image-segmentation of CellPainting images of U2OS cells. It also contains a simple assignment for making a pipeline
 
 #### Assignment
 ##### Background

@@ -11,7 +11,7 @@ Another important step is to mine tabular data from the images, in order to cons
 
 Regardless of which method, the result is  tabular data that can be further analyzed with a multitude of models - both supervised and unsupervised. A widely used set of unsupervised models would be Principal Component Analysis (PCA), T-Distributed Stochastic Neighbor Embedding( t-SNE), and Uniform Manifold Projection (UMAP).
 
-With this in mind, we will ask you to provide a quick exploratory analysis of a reduced dataset containing cell painting images.The images in the dataset have untreated wells (DMSO, a negative control), and wells treated with reference substances (Positive controls) - see the metadata in 'data/imageMetadata.parquet'. The metadata is stored in a Dataframe, each row corresponding to a single well-site-plane combination, and what treatment (if any!) that well has. The data is located in 'data/images/'
+With this in mind, we will ask you to provide a quick exploratory analysis of a reduced dataset containing cell painting images.The images in the dataset have untreated wells (DMSO, a negative control), and wells treated with reference substances (Positive controls) - see the metadata in 'data/plate_metadata.csv'. The metadata is stored in a Dataframe, each row corresponding to a single well-site-plane combination, and what treatment (if any!) that well has. The data is located in 'data/images/'
 
 ##### You will now implement in python a Pipeline to:
 Segment the cells into single-cell masks.
